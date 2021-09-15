@@ -1,0 +1,169 @@
+* {
+    font-family: 'Roboto';
+    color: white;
+}
+
+.navbar-brand {
+    animation: colors 10s infinite;
+}
+.colorline {
+    animation: colors2 10s infinite;
+
+}
+@keyframes colors {
+    0%   {text-shadow: 0 0 5px rgb(249, 49, 49);}
+    25%  {text-shadow: 0 0 5px rgb(252, 252, 8);}
+    50%  {text-shadow: 0 0 5px rgb(26, 154, 228);}
+    75%  {text-shadow: 0 0 5px rgb(44, 247, 13);}
+    100% {text-shadow: 0 0 5px rgb(249, 49, 49);}
+
+}
+@keyframes colors2 {
+    0%   {border-bottom:5px solid rgb(249, 49, 49);}
+    25%  {border-bottom:5px solid  rgb(252, 252, 8);}
+    50%  {border-bottom:5px solid  rgb(26, 154, 228);}
+    75%  {border-bottom:5px solid rgb(44, 247, 13);}
+    100% {border-bottom:5px solid  rgb(249, 49, 49);}
+}
+
+.navbar {
+    position: relative;
+}
+.navbar-brand {
+    color: white;
+    position: absolute;
+    margin-bottom: 10px;
+    left: 50%;
+    margin-left: -40px !important;  
+    display: inline;
+    font-size: 50px;
+}
+
+nav ul li a {
+    color: white;   
+}
+
+nav ul li a:hover {
+    color: rgb(123, 117, 117);
+}
+.navbar-brand:hover {
+    color: rgb(237, 226, 226);
+}
+.dropdown-menu a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.active {
+    color: rgb(123, 117, 117);
+}
+
+.aboutText{
+    color:black;
+    list-style-type: none;
+}
+
+.aboutText li {
+    color:black;
+}
+
+ul {
+    text-decoration: none;
+}
+
+footer ul li a  {
+    color: white;
+}
+
+footer ul li a:hover  {
+    color: #808080;
+    text-decoration: none;
+}
+
+.copyright {
+    color:white;
+}
+.copyright:hover {
+    color: #808080;
+    text-decoration: none;
+}
+
+.linija {
+    border-right: 2px solid #cecece;
+
+}
+
+.slike {
+    height: 600px;
+}
+  
+.liste::before {
+    color: black;
+}
+
+
+.days {
+    text-align: center;
+    border: 1px solid #333;
+    background-color: black;
+    color: white;
+}
+
+.Lnum {
+    text-align: center;
+    border: 1px solid black;
+    background-color: #333;
+    color: black;
+}
+
+.Wnum {
+    text-align: center;
+    border: 1px solid black;
+    background-color: #012cff;
+    color: white;
+}
+
+.Lnum:hover {
+    background-color: rgb(103, 100, 100);
+}
+
+.Wnum:hover {
+    background-color: #1f44f9;
+}
+
+.calendar table {
+    border:3px solid black;
+    width: 225px;
+}
+
+#nomove {
+    display: inline;
+  }
+
+  .pages {
+      margin-left: -50px;
+      color: black;
+  }
+  .pages:hover {
+      text-decoration: none;
+      color : #333;
+  }
+
+  .pragim {
+    color: #333;
+  }
+  .pragim:hover {
+      color: #747171;
+      text-decoration: none;
+  }
+
+  .secret {
+    color:#333; 
+    cursor:none;
+  }
+
+  .secret:hover {
+    background-color: #333;
+    color:#333; 
+    cursor:none;
+  }
